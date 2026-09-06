@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "name": "swift",
+  "runner": "macos-15",
+  "toolchain": {
+    "kind": "swift"
+  },
+  "required_files": [
+    "Package.swift"
+  ],
+  "check_commands": [
+    [
+      "swift",
+      "test"
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "swift",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 30
+}
