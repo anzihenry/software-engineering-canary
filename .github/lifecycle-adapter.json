@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "name": "python",
+  "runner": "ubuntu-latest",
+  "toolchain": {
+    "kind": "python",
+    "version": "3.14"
+  },
+  "required_files": [
+    "requirements-dev.txt",
+    "tests"
+  ],
+  "check_commands": [
+    [
+      "python",
+      "-m",
+      "pip",
+      "install",
+      "--requirement",
+      "requirements-dev.txt"
+    ],
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "--start-directory",
+      "tests"
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "pip",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 30
+}
