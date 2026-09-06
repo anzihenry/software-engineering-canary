@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "node",
+  "runner": "ubuntu-latest",
+  "toolchain": {
+    "kind": "node",
+    "version": "24"
+  },
+  "required_files": [
+    "package.json",
+    "package-lock.json"
+  ],
+  "check_commands": [
+    [
+      "npm",
+      "ci"
+    ],
+    [
+      "npm",
+      "run",
+      "validate"
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "npm",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 30
+}
