@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "name": "go",
+  "runner": "ubuntu-latest",
+  "toolchain": {
+    "kind": "go",
+    "version_file": "go.mod"
+  },
+  "required_files": [
+    "go.mod"
+  ],
+  "check_commands": [
+    [
+      "go",
+      "test",
+      "./..."
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "gomod",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 30
+}
