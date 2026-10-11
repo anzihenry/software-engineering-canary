@@ -1,5 +1,5 @@
 {
-  "tool_sha256": "151f589623e674a5b61a416660c43c9181ab84a7a37994765cb31bafd7d4c7ed",
+  "tool_sha256": "6468988640bb464e7eb0e2db9f155a292a627da24565f1ac679c1fb7d70ef0ed",
   "kind": "current-head-local-adoption-observation-not-approval",
   "local_report": {
     "status": "checks-passed",
