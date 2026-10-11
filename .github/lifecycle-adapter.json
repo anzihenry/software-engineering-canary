@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "name": "harness-adoption-canary",
+  "runner": "ubuntu-latest",
+  "toolchain": {
+    "kind": "python",
+    "version": "3.14"
+  },
+  "required_files": [
+    "requirements-dev.txt",
+    "pyproject.toml",
+    "synthetic.py",
+    "test_synthetic.py"
+  ],
+  "check_commands": [
+    [
+      "python",
+      "-m",
+      "pip",
+      "install",
+      "--requirement",
+      "requirements-dev.txt"
+    ],
+    [
+      "ruff",
+      "check",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    [
+      "ruff",
+      "format",
+      "--check",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    [
+      "python",
+      "-m",
+      "py_compile",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    [
+      "python",
+      "-m",
+      "unittest",
+      "test_synthetic"
+    ],
+    [
+      "git",
+      "fetch",
+      "--no-tags",
+      "origin",
+      "main"
+    ],
+    [
+      "git",
+      "clone",
+      "https://github.com/anzihenry/software-engineering.git",
+      "../pinned-harness"
+    ],
+    [
+      "git",
+      "-C",
+      "../pinned-harness",
+      "checkout",
+      "--detach",
+      "952e840752741431c027097b5c242b7bc7fa3be5"
+    ],
+    [
+      "python",
+      "../pinned-harness/scripts/documentation_check.py",
+      "check",
+      "--root",
+      ".",
+      "--base",
+      "a37d46a346b0d955d99db1c55aa65df1fb281a71"
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "pip",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 7
+}

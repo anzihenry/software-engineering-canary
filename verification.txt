@@ -1,0 +1,39 @@
+Synthetic trial: no deployment or merge. Knowledge source 952e840752741431c027097b5c242b7bc7fa3be5.
+Local checks before candidate commit; binds source bytes, not a future CI head.
+
+build: exit 0
+
+documentation: exit 0
+{
+  "status": "passed",
+  "documents": [
+    "CHANGELOG.en.md",
+    "CHANGELOG.md",
+    "README.en.md",
+    "README.md",
+    "docs/README.en.md",
+    "docs/README.md",
+    "docs/documentation.en.md",
+    "docs/documentation.md"
+  ],
+  "schema_version": 1
+}
+
+format: exit 0
+2 files already formatted
+
+lint: exit 0
+All checks passed!
+
+test: exit 0
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Upstream governance install: source-ref fixed 952e840; 28 creates, one unchanged, zero conflicts. Original upstream .github/PULL_REQUEST_TEMPLATE.md and docs/github-lifecycle-automation.md are retained byte-for-byte as raw harness inputs; bilingual project guide explains use. AGENTS is original runtime routing; Chinese and English are independently reviewed. Unchanged CANARY.md migration owner maintainer, due 2026-11-01.
+synthetic.py sha256 c4309507b08ba1fe0aa92b7c7ab04ac607edb1270ca49ff1fb96c9514a701a43
+test_synthetic.py sha256 53ce48f58f1ea201d9ec2280711b65e1182d832c32559afd44eb707f099c1c15
+pyproject.toml sha256 5d04d9985e1384b21fe861d90f967f97bf503d933bd57d89001cd2f67a73f8aa
+requirements-dev.txt sha256 a1fc247ec9033cb41efc5d431cb70b4ff3022b76409329b8b5af259fe9cdf2d4

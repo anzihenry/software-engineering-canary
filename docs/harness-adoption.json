@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "harness_revision": "952e840752741431c027097b5c242b7bc7fa3be5",
+  "scope": "github",
+  "language_references": [
+    "python"
+  ],
+  "entrypoints": {
+    "AGENTS.md": "272d61d546ee4734ba8619e8dd65e339c40da0e13371011e68cb91aaf99a417b"
+  },
+  "global_context": "Independent Agent context follows its runtime instructions plus this project entry; no separate global or directory AGENTS file declared. Observer must verify actual context.",
+  "unresolved_overrides": [],
+  "protected_branches": [
+    "main"
+  ],
+  "owners": {
+    "maintainer": "anzihenry"
+  },
+  "task_facts": "This trial PR is the sole task status source",
+  "independent_review": "Separate Agent context; trusted maintainer publishes immutable review evidence outside candidate history",
+  "commands": {
+    "format": [
+      "{ruff}",
+      "format",
+      "--check",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    "lint": [
+      "{ruff}",
+      "check",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    "build": [
+      "{python}",
+      "-m",
+      "py_compile",
+      "synthetic.py",
+      "test_synthetic.py"
+    ],
+    "test": [
+      "{python}",
+      "-m",
+      "unittest",
+      "test_synthetic"
+    ],
+    "documentation": [
+      "{python}",
+      "{harness}/scripts/documentation_check.py",
+      "check",
+      "--root",
+      "{project}",
+      "--base",
+      "{base}"
+    ]
+  }
+}

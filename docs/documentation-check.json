@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "standard_version": "952e840752741431c027097b5c242b7bc7fa3be5",
+  "owners": {
+    "maintainer": "anzihenry"
+  },
+  "required_checks": [
+    "validate",
+    "lifecycle-policy"
+  ],
+  "documents": {
+    "README.md": "knowledge",
+    "CHANGELOG.md": "knowledge",
+    "docs/README.md": "knowledge",
+    "docs/documentation.md": "knowledge"
+  },
+  "legacy": {
+    "CANARY.md": {
+      "owner": "maintainer",
+      "reason": "Unchanged legacy canary policy; no current change to its scope or instructions",
+      "due": "2026-11-01",
+      "evidence": "verification.txt"
+    }
+  },
+  "raw": {
+    "AGENTS.md": {
+      "owner": "maintainer",
+      "reason": "Original Agent runtime input consuming pinned harness rules and bilingual project configuration; no second formal rule definition. Independently inspected as actual task input.",
+      "evidence": "verification.txt"
+    },
+    "AGENTS.en.md": {
+      "owner": "maintainer",
+      "reason": "Original Agent runtime input consuming pinned harness rules and bilingual project configuration; no second formal rule definition. Independently inspected as actual task input.",
+      "evidence": "verification.txt"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "owner": "maintainer",
+      "reason": "Unmodified upstream harness input vendored by governance installer from immutable 952e840752741431c027097b5c242b7bc7fa3be5; installation manifest records original bytes. Project use explained by bilingual docs/documentation.md.",
+      "evidence": "verification.txt"
+    },
+    "docs/github-lifecycle-automation.md": {
+      "owner": "maintainer",
+      "reason": "Unmodified upstream harness input vendored by governance installer from immutable 952e840752741431c027097b5c242b7bc7fa3be5; installation manifest records original bytes. Project use explained by bilingual docs/documentation.md.",
+      "evidence": "verification.txt"
+    }
+  }
+}
