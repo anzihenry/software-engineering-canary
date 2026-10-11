@@ -4,7 +4,7 @@
   "files": {
     ".github/PULL_REQUEST_TEMPLATE.md": "2ae6932edb6a19448410b75a001b865fd2b850552a28d2b1fcde5c9f9f50b901",
     ".github/dependabot.yml": "c8836cd5588d76e6966f18ca900f099f2de30b830e047a2b3355b4f586adf7ee",
-    ".github/lifecycle-adapter.json": "d77f3151c60d4492775a6f69a6c516b04ab6856a28d2ca6a8a3062fd01b5453a",
+    ".github/lifecycle-adapter.json": "c8f9638a03749561d9febcaf85eedd1117e01622ae45afb601d356794151cb1b",
     ".github/lifecycle-policy.json": "2e436c27a38a4e632231a07f110d0991aa82b9320d500127248941104f1c7eeb",
     ".github/workflows/lifecycle-policy.yml": "5a37e4e1703d7383eebd9cc4cddf0300f0d07fb0ec5ffcfa2d176d5e50ab4111",
     ".github/workflows/validate.yml": "ae3e46f5ab34ceea7308277d24ae5f384662be50d8d2c1f0324c129513d6d190",

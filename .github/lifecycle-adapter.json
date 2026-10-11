@@ -50,6 +50,13 @@
     [
       "git",
       "fetch",
+      "--unshallow",
+      "--no-tags",
+      "origin"
+    ],
+    [
+      "git",
+      "fetch",
       "--no-tags",
       "origin",
       "main"

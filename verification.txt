@@ -37,3 +37,5 @@ synthetic.py sha256 c4309507b08ba1fe0aa92b7c7ab04ac607edb1270ca49ff1fb96c9514a70
 test_synthetic.py sha256 53ce48f58f1ea201d9ec2280711b65e1182d832c32559afd44eb707f099c1c15
 pyproject.toml sha256 5d04d9985e1384b21fe861d90f967f97bf503d933bd57d89001cd2f67a73f8aa
 requirements-dev.txt sha256 a1fc247ec9033cb41efc5d431cb70b4ff3022b76409329b8b5af259fe9cdf2d4
+
+Initial remote run38147649476 failed because checkout merge tree was shallow: base ancestry unavailable; preserved raw log externally. Custom project adapter now explicitly fetches full candidate history before fixed document check; original workflow and mandatory checks retained. Bilingual adoption guide and shortest README example independently reviewed after correction.
