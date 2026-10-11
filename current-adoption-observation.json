@@ -1,10 +1,209 @@
 {
-  "tool_sha256": "a51b8be3211f2b7ae18c407c30da88e7405d6bad006a3c7b0dc670c0b067fc0f",
+  "tool_sha256": "3c66411c8e6147ebe34ac62049cfbb11f10ec1c91b4c067027e3093366cb1206",
   "kind": "current-head-local-adoption-observation-not-approval",
   "local_report": {
     "status": "checks-passed",
     "harness_revision": "952e840752741431c027097b5c242b7bc7fa3be5",
     "base": "a37d46a346b0d955d99db1c55aa65df1fb281a71",
+    "target_binding": {
+      "head": "276b41057b71de2c980940e49767629f21abffbc",
+      "branch": "codex/harness-p0-adoption",
+      "working_tree_dirty": false,
+      "files": {
+        ".github/PULL_REQUEST_TEMPLATE.md": {
+          "sha256": "2ae6932edb6a19448410b75a001b865fd2b850552a28d2b1fcde5c9f9f50b901",
+          "executable": false
+        },
+        ".github/dependabot.yml": {
+          "sha256": "c8836cd5588d76e6966f18ca900f099f2de30b830e047a2b3355b4f586adf7ee",
+          "executable": false
+        },
+        ".github/lifecycle-adapter.json": {
+          "sha256": "c8f9638a03749561d9febcaf85eedd1117e01622ae45afb601d356794151cb1b",
+          "executable": false
+        },
+        ".github/lifecycle-installation.json": {
+          "sha256": "21b3023c51f8095426169be7f7f93326d0a31fcd6e51b884203cc3f5df404aa4",
+          "executable": false
+        },
+        ".github/lifecycle-policy.json": {
+          "sha256": "2e436c27a38a4e632231a07f110d0991aa82b9320d500127248941104f1c7eeb",
+          "executable": false
+        },
+        ".github/workflows/lifecycle-policy.yml": {
+          "sha256": "5a37e4e1703d7383eebd9cc4cddf0300f0d07fb0ec5ffcfa2d176d5e50ab4111",
+          "executable": false
+        },
+        ".github/workflows/validate.yml": {
+          "sha256": "ae3e46f5ab34ceea7308277d24ae5f384662be50d8d2c1f0324c129513d6d190",
+          "executable": false
+        },
+        ".gitignore": {
+          "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e",
+          "executable": false
+        },
+        "AGENTS.en.md": {
+          "sha256": "1d8f94169a849a8054dbf1c205829b420074f44738f6f21bcf0393ae578ddf5e",
+          "executable": false
+        },
+        "AGENTS.md": {
+          "sha256": "272d61d546ee4734ba8619e8dd65e339c40da0e13371011e68cb91aaf99a417b",
+          "executable": false
+        },
+        "CANARY.md": {
+          "sha256": "04b5778dfe3db400cc7aa4f5adf544f8710aa9ba9c89d0c9830785bd0a914c51",
+          "executable": false
+        },
+        "CHANGELOG.en.md": {
+          "sha256": "df1cba4094b2568a42ed8f3bdcfa51f4d0bb9647b6462351c43d3d30b620b4e7",
+          "executable": false
+        },
+        "CHANGELOG.md": {
+          "sha256": "d67bac0bc530e205d61942a6744a1f5e72e1c2d6771c1b6d3cbf42aee0eb5eea",
+          "executable": false
+        },
+        "README.en.md": {
+          "sha256": "952a7480b5c837a809dc51fadb27bddefcac7ea7793d0413c60d63caba6129bb",
+          "executable": false
+        },
+        "README.md": {
+          "sha256": "810eb8b8a8ac87237da9051399d0ba584ebd84b0a84c0704b5d0a3fadb9292cb",
+          "executable": false
+        },
+        "automation/github-lifecycle-adapters.json": {
+          "sha256": "2e78baa5f6ac5cd170e6c5e2126e15a719c605d1cabd11f11bc988960aa7edb7",
+          "executable": false
+        },
+        "automation/github-lifecycle-manifest.json": {
+          "sha256": "021ab5a14ac51eee9d76a58ac06457a809fc84e58dde0ccf05bc01572de09fa8",
+          "executable": false
+        },
+        "docs/README.en.md": {
+          "sha256": "95c81f31b49f4d79aac20e2b9646c11d8271ac506a1b1e5511f2a5c3a0bc952c",
+          "executable": false
+        },
+        "docs/README.md": {
+          "sha256": "ebdec54008aec78c12ac161b2dee214bf35770d2aa2bc191988bc525ceffdf5c",
+          "executable": false
+        },
+        "docs/documentation-check.json": {
+          "sha256": "01a6591e61a8b1aa107b6e6aaf95bdfa7752c5fe46389c99dc19389328ada69e",
+          "executable": false
+        },
+        "docs/documentation.en.md": {
+          "sha256": "63ea9664940da6a5e071cfca8c000e13e5e867448891783074d581199a81cbf6",
+          "executable": false
+        },
+        "docs/documentation.md": {
+          "sha256": "5c8e79533cec43686313169e6458c4f3ea6b28d3b7b97eff4e80be7b967cb6e8",
+          "executable": false
+        },
+        "docs/github-lifecycle-automation.md": {
+          "sha256": "9457322006ec11a56302adcef360ce1eb3ec90dc30256d8f5a5e3f9ed0c5a5e9",
+          "executable": false
+        },
+        "docs/harness-adoption.json": {
+          "sha256": "f3d5f305b52d953dc83b086871e8083fc49a58865aa4216efd228e6962a91d03",
+          "executable": false
+        },
+        "pyproject.toml": {
+          "sha256": "5d04d9985e1384b21fe861d90f967f97bf503d933bd57d89001cd2f67a73f8aa",
+          "executable": false
+        },
+        "requirements-dev.txt": {
+          "sha256": "a1fc247ec9033cb41efc5d431cb70b4ff3022b76409329b8b5af259fe9cdf2d4",
+          "executable": false
+        },
+        "scripts/__init__.py": {
+          "sha256": "82349a1bc285efec0e2dc23bcbc114bb4d8fb8115d822c1447db109bd426c72e",
+          "executable": false
+        },
+        "scripts/github_lifecycle/__init__.py": {
+          "sha256": "d886bc74929aa3ff442435b9d7df2f96be901e5d365370df481547cbaa5f829f",
+          "executable": false
+        },
+        "scripts/github_lifecycle/__main__.py": {
+          "sha256": "ee8040bc699ade1a5c23b4dc640e0acde2970122015203d587a8551d31599972",
+          "executable": false
+        },
+        "scripts/github_lifecycle/adapters.py": {
+          "sha256": "807c788c11ee6c65a6b75ec4b45387a21b473762338256f1a166f6b3d8b38ee1",
+          "executable": false
+        },
+        "scripts/github_lifecycle/adoption.py": {
+          "sha256": "567f2c559780115c528b895e39d4c97763182e1a5ef62bcec4255fcb68cb80f9",
+          "executable": false
+        },
+        "scripts/github_lifecycle/common.py": {
+          "sha256": "602fc92c22ac48328269eace09b3ca63c344be0496d0043a794a877f53b626d4",
+          "executable": false
+        },
+        "scripts/github_lifecycle/github.py": {
+          "sha256": "f4301510fc9bab7486f2846093c8a6d0c02313009b40732ea49e4d949cf1624a",
+          "executable": false
+        },
+        "scripts/github_lifecycle/incident.py": {
+          "sha256": "7cf058a903b8c6d17bf8be3f9cb833d98c5a42f178d9a27f5a86b6f3c694e2a8",
+          "executable": false
+        },
+        "scripts/github_lifecycle/installation.py": {
+          "sha256": "14b7cf8a6f9d8df75d19569779b3bbba73bd291842d24e3130f92234a463edd9",
+          "executable": false
+        },
+        "scripts/github_lifecycle/package.py": {
+          "sha256": "fc7eed63fd5121a70e446c8485f0434cd5fa7204313cac16427e53e065e8c1df",
+          "executable": false
+        },
+        "scripts/github_lifecycle/pr.py": {
+          "sha256": "f635019d83b8936d1abbffd5beef773073e8d68651bd92fcd7f1271ca81ac733",
+          "executable": false
+        },
+        "scripts/github_lifecycle/release.py": {
+          "sha256": "750273a9f7bfa8275f27ac911ab4ef0bc9b08a3988aa4e15fe43cfb266e49d6a",
+          "executable": false
+        },
+        "scripts/github_lifecycle/repository.py": {
+          "sha256": "f1090bf4bd6c9561b00ff7ccbb9b0742526b9ae15c9a4ac97d3ca0298f9d353e",
+          "executable": false
+        },
+        "scripts/github_lifecycle/repository_bootstrap.py": {
+          "sha256": "4c0c756f17d26de0ca7824e033ccf906b3b8ab74638cce3bb08cdbf7b0981e7f",
+          "executable": false
+        },
+        "scripts/github_lifecycle/repository_inspection.py": {
+          "sha256": "ae710f5e5aea88c0e3845617f90b113595bbf071af7b6dac50c467fad00d990f",
+          "executable": false
+        },
+        "scripts/github_lifecycle/repository_ruleset.py": {
+          "sha256": "67cad5b742db08ca2171b05e2d92b132a78a39e8fa38c76a0a435989f36821bf",
+          "executable": false
+        },
+        "scripts/github_lifecycle/repository_state.py": {
+          "sha256": "28761bdf83106574c3b0d27e8f6d26dc31c485a38ee2451a4dc455abfd49ff94",
+          "executable": false
+        },
+        "scripts/github_lifecycle/retrospective.py": {
+          "sha256": "f00526789a1c8b7414c648c85185bc23cde512d97d82bf7f41323bf73ee18904",
+          "executable": false
+        },
+        "scripts/github_lifecycle/upgrade.py": {
+          "sha256": "3ef2c9ae6f78a1dbe122c028eccda06449a31f72b3748ead5d6897d36b9f21de",
+          "executable": false
+        },
+        "synthetic.py": {
+          "sha256": "c4309507b08ba1fe0aa92b7c7ab04ac607edb1270ca49ff1fb96c9514a701a43",
+          "executable": false
+        },
+        "test_synthetic.py": {
+          "sha256": "53ce48f58f1ea201d9ec2280711b65e1182d832c32559afd44eb707f099c1c15",
+          "executable": false
+        },
+        "verification.txt": {
+          "sha256": "c7d720c000c98af651185628ef56b6d52fcb234327a9c04d4640a55463610eb5",
+          "executable": false
+        }
+      }
+    },
     "head": "276b41057b71de2c980940e49767629f21abffbc",
     "branch": "codex/harness-p0-adoption",
     "prerequisites": [
