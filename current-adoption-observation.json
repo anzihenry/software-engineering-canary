@@ -1,0 +1,96 @@
+{
+  "tool_sha256": "a51b8be3211f2b7ae18c407c30da88e7405d6bad006a3c7b0dc670c0b067fc0f",
+  "kind": "current-head-local-adoption-observation-not-approval",
+  "local_report": {
+    "status": "checks-passed",
+    "harness_revision": "952e840752741431c027097b5c242b7bc7fa3be5",
+    "base": "a37d46a346b0d955d99db1c55aa65df1fb281a71",
+    "head": "276b41057b71de2c980940e49767629f21abffbc",
+    "branch": "codex/harness-p0-adoption",
+    "prerequisites": [
+      "docs/coding-standards.md",
+      "docs/documentation-standard.md",
+      "docs/evidence-trust.md",
+      "docs/git-branch-workflow.md",
+      "docs/github-repository-defaults.md",
+      "docs/quality-gates.md",
+      "skills/04-implementation-and-self-test/documentation-maintenance/SKILL.md",
+      "skills/04-implementation-and-self-test/git-branch-management/SKILL.md",
+      "skills/04-implementation-and-self-test/language-coding-standards/SKILL.md",
+      "skills/04-implementation-and-self-test/language-coding-standards/references/common.md",
+      "skills/04-implementation-and-self-test/language-coding-standards/references/python.md",
+      "skills/05-integration-validation/documentation-delivery-validation/SKILL.md",
+      "skills/05-integration-validation/github-actions-bootstrap/SKILL.md",
+      "skills/05-integration-validation/github-repository-bootstrap/SKILL.md",
+      "templates/documentation/delivery-check.md"
+    ],
+    "entrypoints": {
+      "AGENTS.md": "272d61d546ee4734ba8619e8dd65e339c40da0e13371011e68cb91aaf99a417b"
+    },
+    "behavior": "requires actual independent Agent task; availability is not loading proof",
+    "remote_enforcement": "requires separate GitHub evidence",
+    "reports": {
+      "build": {
+        "arguments": [
+          "/Users/xiejinheng/Coding/software-engineering/.venv/bin/python",
+          "-m",
+          "py_compile",
+          "synthetic.py",
+          "test_synthetic.py"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "documentation": {
+        "arguments": [
+          "/Users/xiejinheng/Coding/software-engineering/.venv/bin/python",
+          "/private/tmp/harness-p0-fixed/scripts/documentation_check.py",
+          "check",
+          "--root",
+          "/private/tmp/harness-p0-canary",
+          "--base",
+          "a37d46a346b0d955d99db1c55aa65df1fb281a71"
+        ],
+        "returncode": 0,
+        "stdout": "{\n  \"status\": \"passed\",\n  \"documents\": [\n    \"CHANGELOG.en.md\",\n    \"CHANGELOG.md\",\n    \"README.en.md\",\n    \"README.md\",\n    \"docs/README.en.md\",\n    \"docs/README.md\",\n    \"docs/documentation.en.md\",\n    \"docs/documentation.md\"\n  ],\n  \"schema_version\": 1\n}\n",
+        "stderr": ""
+      },
+      "format": {
+        "arguments": [
+          "/Users/xiejinheng/Coding/software-engineering/.venv/bin/ruff",
+          "format",
+          "--check",
+          "synthetic.py",
+          "test_synthetic.py"
+        ],
+        "returncode": 0,
+        "stdout": "2 files already formatted\n",
+        "stderr": ""
+      },
+      "lint": {
+        "arguments": [
+          "/Users/xiejinheng/Coding/software-engineering/.venv/bin/ruff",
+          "check",
+          "synthetic.py",
+          "test_synthetic.py"
+        ],
+        "returncode": 0,
+        "stdout": "All checks passed!\n",
+        "stderr": ""
+      },
+      "test": {
+        "arguments": [
+          "/Users/xiejinheng/Coding/software-engineering/.venv/bin/python",
+          "-m",
+          "unittest",
+          "test_synthetic"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+      }
+    }
+  },
+  "prior_report_scope": "local-commands-final.json ran during uncommitted correction and recorded cd21f63 HEAD; independent-local-raw.json and this observation attest the corrected 276b410 tree"
+}
