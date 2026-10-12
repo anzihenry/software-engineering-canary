@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "name": "p1-domain-canary",
+  "runner": "ubuntu-latest",
+  "toolchain": {
+    "kind": "python",
+    "version": "3.14"
+  },
+  "required_files": [
+    "requirements-dev.txt",
+    "pyproject.toml",
+    "tests/test_domain_reference.py",
+    "scripts/project_ci.py"
+  ],
+  "check_commands": [
+    [
+      "python",
+      "-m",
+      "pip",
+      "install",
+      "--requirement",
+      "requirements-dev.txt"
+    ],
+    [
+      "python",
+      "-m",
+      "ruff",
+      "check",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    [
+      "python",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    [
+      "python",
+      "-m",
+      "compileall",
+      "-q",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "--start-directory",
+      "tests"
+    ],
+    [
+      "python",
+      "scripts/project_ci.py"
+    ]
+  ],
+  "dependabot_ecosystems": [
+    "pip",
+    "github-actions"
+  ],
+  "release_artifact_retention_days": 7
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "harness_revision": "eb674f606ba36b6b8e5b7da3c00c40b915c49f17",
+  "scope": "github",
+  "language_references": [
+    "python"
+  ],
+  "entrypoints": {
+    "AGENTS.md": "b5765bcf9c3a7d7b3c8adc8c72ad9884bcaf074f5598d348684ee1d738db10d9"
+  },
+  "global_context": "Synthetic trial task runtime plus actual project input; independent Agent inspects all inherited instructions. No unrecorded directory override in this fixture.",
+  "unresolved_overrides": [],
+  "protected_branches": [
+    "main"
+  ],
+  "owners": {
+    "maintainer": "anzihenry"
+  },
+  "task_facts": "The isolated trial PR is the only task status source",
+  "independent_review": "Separate Agent reads actual fixed source and task trace; trusted maintainer publishes immutable attestation outside candidate history",
+  "commands": {
+    "format": [
+      "{python}",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    "lint": [
+      "{python}",
+      "-m",
+      "ruff",
+      "check",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    "build": [
+      "{python}",
+      "-m",
+      "compileall",
+      "-q",
+      "tests",
+      "scripts/project_ci.py"
+    ],
+    "test": [
+      "{python}",
+      "-m",
+      "unittest",
+      "discover",
+      "--start-directory",
+      "tests"
+    ],
+    "documentation": [
+      "{python}",
+      "{harness}/scripts/documentation_check.py",
+      "check",
+      "--root",
+      "{project}",
+      "--base",
+      "{base}"
+    ]
+  }
+}
