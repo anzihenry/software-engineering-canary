@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "publisher": "anzihenry",
+  "binding": {
+    "repository": "anzihenry/software-engineering-canary",
+    "pull_request": 7,
+    "head_sha": "e2b9a92bed1b3453560e227a598db6f1a3d26ae9",
+    "base_sha": "a37d46a346b0d955d99db1c55aa65df1fb281a71",
+    "merge_sha": "c2f1063c043ce6192b39cea17a9df3f15cfaec74"
+  },
+  "snapshot": {
+    "schema_version": 1,
+    "base": "a37d46a346b0d955d99db1c55aa65df1fb281a71",
+    "config": "docs/documentation-check.json",
+    "authors": [
+      "/root",
+      "anzihenry"
+    ],
+    "files": {
+      ".github/PULL_REQUEST_TEMPLATE.md": {
+        "sha256": "2ae6932edb6a19448410b75a001b865fd2b850552a28d2b1fcde5c9f9f50b901",
+        "executable": false
+      },
+      ".github/dependabot.yml": {
+        "sha256": "c8836cd5588d76e6966f18ca900f099f2de30b830e047a2b3355b4f586adf7ee",
+        "executable": false
+      },
+      ".github/lifecycle-adapter.json": {
+        "sha256": "aed0dcfa60d502ecd75a86e03c3e18996d2678000e7864a6b7f69e92ed50b92c",
+        "executable": false
+      },
+      ".github/lifecycle-installation.json": {
+        "sha256": "fe6bdca331a7e75bff805abdcfaf6c3c1dc325f260cd0d47d28957dea4c740ea",
+        "executable": false
+      },
+      ".github/lifecycle-policy.json": {
+        "sha256": "2e436c27a38a4e632231a07f110d0991aa82b9320d500127248941104f1c7eeb",
+        "executable": false
+      },
+      ".github/workflows/lifecycle-policy.yml": {
+        "sha256": "5a37e4e1703d7383eebd9cc4cddf0300f0d07fb0ec5ffcfa2d176d5e50ab4111",
+        "executable": false
+      },
+      ".github/workflows/project-local.yml": {
+        "sha256": "8477e8726aa13bc0526b6a9468987ee401b72db7f92a3e8f9771dcc8b1f272a2",
+        "executable": false
+      },
+      ".github/workflows/validate.yml": {
+        "sha256": "ae3e46f5ab34ceea7308277d24ae5f384662be50d8d2c1f0324c129513d6d190",
+        "executable": false
+      },
+      ".gitignore": {
+        "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+        "executable": false
+      },
+      "AGENTS.md": {
+        "sha256": "b5765bcf9c3a7d7b3c8adc8c72ad9884bcaf074f5598d348684ee1d738db10d9",
+        "executable": false
+      },
+      "CANARY.md": {
+        "sha256": "04b5778dfe3db400cc7aa4f5adf544f8710aa9ba9c89d0c9830785bd0a914c51",
+        "executable": false
+      },
+      "CHANGELOG.en.md": {
+        "sha256": "be41c57c852c1a703c919b11149436838ea3884b4139dc0412408a2ba2d80fa8",
+        "executable": false
+      },
+      "CHANGELOG.md": {
+        "sha256": "aeb3c1b2da949a5c8eb4f0862dadd5024c2ddfa37d8847aa7574d7d492cf5b41",
+        "executable": false
+      },
+      "README.en.md": {
+        "sha256": "3dab90d2b49f5c6931c71f4b2aa3cfcca7b18e3163775140717269aadc1bdd26",
+        "executable": false
+      },
+      "README.md": {
+        "sha256": "a84ccb4edd0dceba02e52eb902e7f0659e7b5145c058476ffeff4d61deec68c4",
+        "executable": false
+      },
+      "automation/github-lifecycle-adapters.json": {
+        "sha256": "2e78baa5f6ac5cd170e6c5e2126e15a719c605d1cabd11f11bc988960aa7edb7",
+        "executable": false
+      },
+      "automation/github-lifecycle-manifest.json": {
+        "sha256": "021ab5a14ac51eee9d76a58ac06457a809fc84e58dde0ccf05bc01572de09fa8",
+        "executable": false
+      },
+      "docs/README.en.md": {
+        "sha256": "cafb71e2b489b4e688442bd81fee626d389d3f556f6beb3bb2d7f7c8fae0d82e",
+        "executable": false
+      },
+      "docs/README.md": {
+        "sha256": "24abae9fab6d65f1dca0819def8c3d9a8d565443733376be464eb15a533435d1",
+        "executable": false
+      },
+      "docs/documentation-check.json": {
+        "sha256": "3a7219e36d9eb861adabf4af71f23c78b130423f90d47570c9d436543584df41",
+        "executable": false
+      },
+      "docs/documentation.en.md": {
+        "sha256": "670069783e91800a46c697f9e24f81c14b8e3e9e4a13616538da885326076a12",
+        "executable": false
+      },
+      "docs/documentation.md": {
+        "sha256": "b126529a672bc8786eaa1cd1f2fbc7f7313b737c6d67db4dd7ea1e07aa9174e3",
+        "executable": false
+      },
+      "docs/github-lifecycle-automation.md": {
+        "sha256": "9457322006ec11a56302adcef360ce1eb3ec90dc30256d8f5a5e3f9ed0c5a5e9",
+        "executable": false
+      },
+      "docs/harness-adoption.json": {
+        "sha256": "c5e166e1a79795bf86862f6a13863d2a4007257104e4471543143669d1cd0739",
+        "executable": false
+      },
+      "docs/user-guide.en.md": {
+        "sha256": "820b5ce935dc21b871cc7ff581d9f55eec4c20b5b782cd962e32a04ca3e60000",
+        "executable": false
+      },
+      "docs/user-guide.md": {
+        "sha256": "e86300cc2b8a0e8d569edc89c5145b39f36d5d0dcf742da51132f87fd1cf4fa4",
+        "executable": false
+      },
+      "fixture-local.txt": {
+        "sha256": "04bc40009677b59b781387b4c257d6e262e9632131eb11e164e4f59a0c4fb120",
+        "executable": false
+      },
+      "pyproject.toml": {
+        "sha256": "5d04d9985e1384b21fe861d90f967f97bf503d933bd57d89001cd2f67a73f8aa",
+        "executable": false
+      },
+      "requirements-dev.txt": {
+        "sha256": "a1fc247ec9033cb41efc5d431cb70b4ff3022b76409329b8b5af259fe9cdf2d4",
+        "executable": false
+      },
+      "scripts/__init__.py": {
+        "sha256": "82349a1bc285efec0e2dc23bcbc114bb4d8fb8115d822c1447db109bd426c72e",
+        "executable": false
+      },
+      "scripts/github_lifecycle/__init__.py": {
+        "sha256": "d886bc74929aa3ff442435b9d7df2f96be901e5d365370df481547cbaa5f829f",
+        "executable": false
+      },
+      "scripts/github_lifecycle/__main__.py": {
+        "sha256": "ee8040bc699ade1a5c23b4dc640e0acde2970122015203d587a8551d31599972",
+        "executable": false
+      },
+      "scripts/github_lifecycle/adapters.py": {
+        "sha256": "807c788c11ee6c65a6b75ec4b45387a21b473762338256f1a166f6b3d8b38ee1",
+        "executable": false
+      },
+      "scripts/github_lifecycle/adoption.py": {
+        "sha256": "567f2c559780115c528b895e39d4c97763182e1a5ef62bcec4255fcb68cb80f9",
+        "executable": false
+      },
+      "scripts/github_lifecycle/common.py": {
+        "sha256": "602fc92c22ac48328269eace09b3ca63c344be0496d0043a794a877f53b626d4",
+        "executable": false
+      },
+      "scripts/github_lifecycle/github.py": {
+        "sha256": "f4301510fc9bab7486f2846093c8a6d0c02313009b40732ea49e4d949cf1624a",
+        "executable": false
+      },
+      "scripts/github_lifecycle/incident.py": {
+        "sha256": "7cf058a903b8c6d17bf8be3f9cb833d98c5a42f178d9a27f5a86b6f3c694e2a8",
+        "executable": false
+      },
+      "scripts/github_lifecycle/installation.py": {
+        "sha256": "14b7cf8a6f9d8df75d19569779b3bbba73bd291842d24e3130f92234a463edd9",
+        "executable": false
+      },
+      "scripts/github_lifecycle/package.py": {
+        "sha256": "fc7eed63fd5121a70e446c8485f0434cd5fa7204313cac16427e53e065e8c1df",
+        "executable": false
+      },
+      "scripts/github_lifecycle/pr.py": {
+        "sha256": "f635019d83b8936d1abbffd5beef773073e8d68651bd92fcd7f1271ca81ac733",
+        "executable": false
+      },
+      "scripts/github_lifecycle/release.py": {
+        "sha256": "750273a9f7bfa8275f27ac911ab4ef0bc9b08a3988aa4e15fe43cfb266e49d6a",
+        "executable": false
+      },
+      "scripts/github_lifecycle/repository.py": {
+        "sha256": "f1090bf4bd6c9561b00ff7ccbb9b0742526b9ae15c9a4ac97d3ca0298f9d353e",
+        "executable": false
+      },
+      "scripts/github_lifecycle/repository_bootstrap.py": {
+        "sha256": "4c0c756f17d26de0ca7824e033ccf906b3b8ab74638cce3bb08cdbf7b0981e7f",
+        "executable": false
+      },
+      "scripts/github_lifecycle/repository_inspection.py": {
+        "sha256": "ae710f5e5aea88c0e3845617f90b113595bbf071af7b6dac50c467fad00d990f",
+        "executable": false
+      },
+      "scripts/github_lifecycle/repository_ruleset.py": {
+        "sha256": "67cad5b742db08ca2171b05e2d92b132a78a39e8fa38c76a0a435989f36821bf",
+        "executable": false
+      },
+      "scripts/github_lifecycle/repository_state.py": {
+        "sha256": "28761bdf83106574c3b0d27e8f6d26dc31c485a38ee2451a4dc455abfd49ff94",
+        "executable": false
+      },
+      "scripts/github_lifecycle/retrospective.py": {
+        "sha256": "f00526789a1c8b7414c648c85185bc23cde512d97d82bf7f41323bf73ee18904",
+        "executable": false
+      },
+      "scripts/github_lifecycle/upgrade.py": {
+        "sha256": "3ef2c9ae6f78a1dbe122c028eccda06449a31f72b3748ead5d6897d36b9f21de",
+        "executable": false
+      },
+      "scripts/project_ci.py": {
+        "sha256": "defbd8815772c9f93fe82663d62e84b89bc5b2783b6e770a5aaff30b3741951d",
+        "executable": false
+      },
+      "tests/fixtures/domain-reference/index.html": {
+        "sha256": "86082c9bd44af40fbe14b37bc3693927adb31a8a06094fd0efebf7352c0a7a40",
+        "executable": false
+      },
+      "tests/fixtures/domain-reference/server.py": {
+        "sha256": "12bf5668a08a2e769c9918c7fd2461ae84c372598637624bca725d9ff661ae4b",
+        "executable": false
+      },
+      "tests/test_domain_reference.py": {
+        "sha256": "27a39cd460baff2f47d825659bd710bad8d65f6c4c3138dd80e7b862f52ff5ad",
+        "executable": false
+      },
+      "verification.txt": {
+        "sha256": "6829dfc8665e101feb5a9b2e98859649f4536ca65ca76cc8dbae5f0368a47b37",
+        "executable": false
+      }
+    },
+    "changed_files": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      ".github/dependabot.yml",
+      ".github/lifecycle-adapter.json",
+      ".github/lifecycle-installation.json",
+      ".github/lifecycle-policy.json",
+      ".github/workflows/project-local.yml",
+      ".github/workflows/validate.yml",
+      ".gitignore",
+      "AGENTS.md",
+      "CHANGELOG.en.md",
+      "CHANGELOG.md",
+      "README.en.md",
+      "README.md",
+      "automation/github-lifecycle-adapters.json",
+      "automation/github-lifecycle-manifest.json",
+      "docs/README.en.md",
+      "docs/README.md",
+      "docs/documentation-check.json",
+      "docs/documentation.en.md",
+      "docs/documentation.md",
+      "docs/github-lifecycle-automation.md",
+      "docs/harness-adoption.json",
+      "docs/user-guide.en.md",
+      "docs/user-guide.md",
+      "fixture-local.txt",
+      "pyproject.toml",
+      "requirements-dev.txt",
+      "scripts/__init__.py",
+      "scripts/github_lifecycle/__init__.py",
+      "scripts/github_lifecycle/__main__.py",
+      "scripts/github_lifecycle/adapters.py",
+      "scripts/github_lifecycle/adoption.py",
+      "scripts/github_lifecycle/common.py",
+      "scripts/github_lifecycle/github.py",
+      "scripts/github_lifecycle/incident.py",
+      "scripts/github_lifecycle/installation.py",
+      "scripts/github_lifecycle/package.py",
+      "scripts/github_lifecycle/pr.py",
+      "scripts/github_lifecycle/release.py",
+      "scripts/github_lifecycle/repository.py",
+      "scripts/github_lifecycle/repository_bootstrap.py",
+      "scripts/github_lifecycle/repository_inspection.py",
+      "scripts/github_lifecycle/repository_ruleset.py",
+      "scripts/github_lifecycle/repository_state.py",
+      "scripts/github_lifecycle/retrospective.py",
+      "scripts/github_lifecycle/upgrade.py",
+      "scripts/project_ci.py",
+      "tests/fixtures/domain-reference/index.html",
+      "tests/fixtures/domain-reference/server.py",
+      "tests/test_domain_reference.py",
+      "verification.txt"
+    ],
+    "digest": "9059f362838143da233b0d859f55665f9acad01a53f2ac1f9405e99ee57b5175"
+  },
+  "review": {
+    "schema_version": 1,
+    "snapshot_digest": "9059f362838143da233b0d859f55665f9acad01a53f2ac1f9405e99ee57b5175",
+    "source_version": "e2b9a92bed1b3453560e227a598db6f1a3d26ae9",
+    "reviewer": "/root/p1_project_independent",
+    "reviewer_role": "independent Agent documentation/content/source reviewer, nonauthor",
+    "independent": true,
+    "context": "Separate /root/p1_project_independent context. No candidate/root content authored or modified. Actual project AGENTS, fixed rules and relevant references read; real current source review and independent project commands/channel/HTTP/browser task recorded in independent-current. Read-only gh current PR/check/App/rules readback. Installed unchanged pinned harness source reviewed by exact bytes and installation mapping; current new source/server/test/project_ci and workflow/document text examined directly.",
+    "reviewed_at": "2026-10-12T11:12:45.535213+00:00",
+    "verdict": "passed",
+    "inspected_files": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      ".github/dependabot.yml",
+      ".github/lifecycle-adapter.json",
+      ".github/lifecycle-installation.json",
+      ".github/lifecycle-policy.json",
+      ".github/workflows/lifecycle-policy.yml",
+      ".github/workflows/project-local.yml",
+      ".github/workflows/validate.yml",
+      ".gitignore",
+      "AGENTS.md",
+      "CANARY.md",
+      "CHANGELOG.en.md",
+      "CHANGELOG.md",
+      "README.en.md",
+      "README.md",
+      "automation/github-lifecycle-adapters.json",
+      "automation/github-lifecycle-manifest.json",
+      "docs/README.en.md",
+      "docs/README.md",
+      "docs/documentation-check.json",
+      "docs/documentation.en.md",
+      "docs/documentation.md",
+      "docs/github-lifecycle-automation.md",
+      "docs/harness-adoption.json",
+      "docs/user-guide.en.md",
+      "docs/user-guide.md",
+      "fixture-local.txt",
+      "pyproject.toml",
+      "requirements-dev.txt",
+      "scripts/__init__.py",
+      "scripts/github_lifecycle/__init__.py",
+      "scripts/github_lifecycle/__main__.py",
+      "scripts/github_lifecycle/adapters.py",
+      "scripts/github_lifecycle/adoption.py",
+      "scripts/github_lifecycle/common.py",
+      "scripts/github_lifecycle/github.py",
+      "scripts/github_lifecycle/incident.py",
+      "scripts/github_lifecycle/installation.py",
+      "scripts/github_lifecycle/package.py",
+      "scripts/github_lifecycle/pr.py",
+      "scripts/github_lifecycle/release.py",
+      "scripts/github_lifecycle/repository.py",
+      "scripts/github_lifecycle/repository_bootstrap.py",
+      "scripts/github_lifecycle/repository_inspection.py",
+      "scripts/github_lifecycle/repository_ruleset.py",
+      "scripts/github_lifecycle/repository_state.py",
+      "scripts/github_lifecycle/retrospective.py",
+      "scripts/github_lifecycle/upgrade.py",
+      "scripts/project_ci.py",
+      "tests/fixtures/domain-reference/index.html",
+      "tests/fixtures/domain-reference/server.py",
+      "tests/test_domain_reference.py",
+      "verification.txt"
+    ],
+    "evidence_files": [
+      "verification.txt"
+    ],
+    "checks": {
+      "impact": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "reason": "Full current changed-file list checked against pinned installation mapping, target docs/AGENTS/CI/server/browser/test and preserved existing input; nine impacts below.",
+        "external_evidence": "/tmp/harness-p1-evidence/04/independent-current/harness-p1-canary"
+      },
+      "implementation": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "reason": "Fixed source pin and unchanged installer files matched byte-for-byte; server actual HTTP authorization/query/error and browser normal/loading/failure/recovery/focus verified; project_ci uses clean immutable harness and check not approval.",
+        "external_evidence": "/tmp/harness-p1-evidence/04/independent-current/harness-p1-canary"
+      },
+      "bilingual": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "reason": "README/CHANGELOG/docs map/documentation/user-guide pairs directly read: scope/pin/owner/commands/limitations/drift/review obligations and links agree; raw fixed upstream inputs are identified as original assets, not untranslated maintained target docs.",
+        "external_evidence": "/tmp/harness-p1-evidence/04/independent-current/harness-p1-canary"
+      },
+      "evidence": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "reason": "Verification actual command stdout matches configured local checks. Independent current project commands all exit0, ZIP/Git/runtime/current snapshots and raw response evidence match. Current CI independently read from gh API with head/App/URL; verification.txt contains local commands only.",
+        "external_evidence": "/tmp/harness-p1-evidence/04/independent-current/harness-p1-canary"
+      },
+      "examples": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "reason": "README unittest and server command exercised via declared exact project commands and owned loopback process; domain API and real browser stages run against current project commit. No production/platform expansion claimed.",
+        "external_evidence": "/tmp/harness-p1-evidence/04/independent-current/harness-p1-canary"
+      }
+    },
+    "impacts": {
+      "research": {
+        "result": "not-applicable",
+        "files": [],
+        "reason": "Controlled synthetic harness adoption trial has no product research, production business requirements, target roadmap or separate ongoing target initiative; task truth is the external P1 trial record. No empty domain directories required."
+      },
+      "product": {
+        "result": "not-applicable",
+        "files": [],
+        "reason": "Controlled synthetic harness adoption trial has no product research, production business requirements, target roadmap or separate ongoing target initiative; task truth is the external P1 trial record. No empty domain directories required."
+      },
+      "planning": {
+        "result": "not-applicable",
+        "files": [],
+        "reason": "Controlled synthetic harness adoption trial has no product research, production business requirements, target roadmap or separate ongoing target initiative; task truth is the external P1 trial record. No empty domain directories required."
+      },
+      "initiatives": {
+        "result": "not-applicable",
+        "files": [],
+        "reason": "Controlled synthetic harness adoption trial has no product research, production business requirements, target roadmap or separate ongoing target initiative; task truth is the external P1 trial record. No empty domain directories required."
+      },
+      "design": {
+        "result": "reviewed-no-change",
+        "files": [
+          "tests/fixtures/domain-reference/index.html"
+        ],
+        "reason": "Fixed reference HTML remains SHA86082c9...: project first baseline visually reviewed in12 current images against previously approved same reference; existing visual/AT path unchanged; no production design change."
+      },
+      "engineering": {
+        "result": "updated",
+        "files": [
+          "tests/fixtures/domain-reference/server.py",
+          "tests/test_domain_reference.py",
+          "scripts/project_ci.py",
+          ".github/lifecycle-adapter.json",
+          ".github/workflows/validate.yml"
+        ],
+        "reason": "Current fixed reference API/owned response/query validation and actual tests; exact quality commands and clean pin document check inCI. Byte-identical installation sources retain existing schema/permission contracts."
+      },
+      "guides": {
+        "result": "updated",
+        "files": [
+          "README.md",
+          "README.en.md",
+          "docs/documentation.md",
+          "docs/documentation.en.md",
+          "docs/user-guide.md",
+          "docs/user-guide.en.md"
+        ],
+        "reason": "Actual local command and pin/maintainer/scope/reference limitations recorded bilingually. Mature existing guide preserved; detailed execution config linked, not rewritten."
+      },
+      "releases": {
+        "result": "updated",
+        "files": [
+          "CHANGELOG.md",
+          "CHANGELOG.en.md"
+        ],
+        "reason": "Adoption change entry updated bilingually; no formal candidate/released/production state claimed. No formal release event requiring releases directory."
+      },
+      "navigation": {
+        "result": "updated",
+        "files": [
+          "AGENTS.md",
+          "docs/README.md",
+          "docs/README.en.md",
+          "docs/documentation-check.json",
+          "docs/harness-adoption.json"
+        ],
+        "reason": "Actual fixed knowledge/input/command/owner mapping and bilingual nav connected; legacy CANARY dated migration and raw unmodified upstream inputs explicitly registered. Scope github retains true mandatoryCI."
+      }
+    },
+    "required_checks": {
+      "lifecycle-policy": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "head_sha": "e2b9a92bed1b3453560e227a598db6f1a3d26ae9",
+        "url": "https://github.com/anzihenry/software-engineering-canary/actions/runs/38237508312/job/114771714761",
+        "app": {
+          "id": 15368,
+          "slug": "github-actions"
+        },
+        "source": "Actual independent gh API readback in /tmp/harness-p1-evidence/04/independent-current/checks.json; verification.txt is only actual precommit local commands, not these future CI logs."
+      },
+      "validate": {
+        "result": "passed",
+        "evidence": "verification.txt",
+        "head_sha": "e2b9a92bed1b3453560e227a598db6f1a3d26ae9",
+        "url": "https://github.com/anzihenry/software-engineering-canary/actions/runs/38237508293/job/114771714512",
+        "app": {
+          "id": 15368,
+          "slug": "github-actions"
+        },
+        "source": "Actual independent gh API readback in /tmp/harness-p1-evidence/04/independent-current/checks.json; verification.txt is only actual precommit local commands, not these future CI logs."
+      }
+    },
+    "findings": []
+  },
+  "reports": [
+    {
+      "text": "# P1-04 项目采用与当前 canary 独立评审\n\n评审者 `/root/p1_project_independent`，独立 Agent，未参与候选/根资产编写或修改。本记录只评审三个固定合成项目当前内容与执行，不给 P1-04 根最终交付结论，不提交、不合入、不发布、不修改保护。当前真实时间与各文件摘要以 domain-review.json、canary-review.json 及独立 raw 的带时区时间为准。\n\n## 固定范围与实际行为轨迹\n\n知识 clean HEAD `eb674f606ba36b6b8e5b7da3c00c40b915c49f17`，实际 `git rev-parse/status` 核对。三项目：new-backend `ea8c19eb50b3ae7d0a335549b53562f1118985ed`；mature-web `806c21a81d17b724054ebc34cfd6a00e55c6b968`；canary `e2b9a92bed1b3453560e227a598db6f1a3d26ae9`。项目工作树未修改。根任务分支 `codex/harness-p1-plan`，根最终文档/机械证据仍等待维护者提交评审。\n\n实际工具读取三项目 AGENTS；documentation-delivery-validation、documentation-standard、delivery-check；language-coding-standards/common/Python；分支技能/规范和文档维护；GitHub两个bootstrap；固定 domain-validation/harness-observation/local-delivery-channel/harness-adoption；九领域完整 SKILL，相关项目配置、真实命令、server.py、index.html、行为测试、project_ci、workflow、双语项目文档及原 verification。短名 domain-validation 等解析到真实 docs，未虚称存在同名SKILL。实际查看安装记录/manifest/固定包字节对应关系与既有canary输入；未变安装源码以全部原字节/固定源映射复核，不声称重做无关历史功能。\n\n自行执行 `independent-current/run.py`：每项目声明的5类命令（Ruff格式/静态、compileall构建、2条真实loopback回归测试、文档check）全部exit0，完整 argv/stdout/stderr在各checks.json。Python3.14.8/Ruff0.16.7/Playwright1.62.1/已安装Chromium153，未安装或升级依赖；项目未配置独立type checker，因此不声称类型检查器已运行。真实本地编译和两Python测试不等同16矩阵其他语言编译。\n\n每项目从该项目Git当前及旧application提交构建独立固定ZIP，实际两目标八阶段 baseline→candidate→真实健康503暂停停止→旧ZIP restored，候选与恢复均真实Chromium；当前制品另运行17HTTP观察、16读取/4workers及50ms客户端超时。raw、ZIP、config/ready/stage/stopped及browser均在 independent-current/{project}；所有进程由本人调用Popen上下文持有并finally终止wait，不杀外部服务。不以健康一次200代替完整路径。本人探针初次把合法终态restored错断言为passed，外部修正断言后保留初次run.log/结果，继续另外两项目；这是评审探针错误，未改候选。audit中初次stage集合形状与生成dependabot/原AGENTS基线定位也在外部修正，不虚称初次探针通过。\n\n另在独立新目录实际执行install/旧c8b→固定EB/同版本/托管受控漂移拒绝/回退与未知文件保留，以及明确合成content-sha旧新包的上游删除保留。原始路径保留；首轮结果JSON序列化未处理Path，二轮新目录以default=str保存 independent-upgrade.json；没有覆盖原试点或把控制包称为已发布上游删除。\n\n## 原始报告与专项判断\n\n独立audit.py/audit.json逐项目复算完整100来源条款、89适用/11dataNA，来源line/text/SHA及固定清单集合完全一致；全部report原证据摘要、24stage身份/制品/source/runtime/nonce/UID/PID/健康与stopped、当前browser副本确来自web-candidate，均吻合。binding另服务的动态端口和browser候选端口不同是两个实际进程，分别绑定，不拼接成一个PID。成熟原AGENTS段、已有CI、指南中英、fixture本地内容保留；canary当前9059f362838143da233b0d859f55665f9acad01a53f2ac1f9405e99ee57b5175快照逐文件吻合。\n\ncontract/authorization：真实HTTP v1/不支持v2、两公开合成主体各自资源200、双向403、匿名401、固定错误、大小/格式/空重复/非法flag/路径/SQL形输入和beta empty0响应成立；不宣称真实IdP/租户/Token过期/安全合规。data全部11条NA依真实源码无持久化/事务/迁移/最终一致，非因缺工具。concurrency只16不可变读与原数组/有限CPU-RSS样本；recovery只显式503/200、客户端截止及实际本地进程旧ZIP恢复，无队列/消费者/地域/数据库恢复或生产容量。browser/system实际当前浏览器→服务→UI五状态、Loading、键盘正常/503恢复/focus；静态单页无路由/SSR/存储/第三方。web-performance完整5次navigation、interaction/resource/layout-shift原记录与固定2000ms预算；无RUM或新旧产品性能提升声明。完整九领域子项与理由写各domain-review。\n\n本人实际view_image读取每项目4图、共12图：宽1024、窄375正常、键盘恢复焦点、375px两倍文字503长文，文字完整自然换行、无横裁/重叠，outline可见；与旧已批准相同HTML参考一致。重新核对实际computed style及sRGB公式：正文16.45162216413095、焦点6.878484164356478，满足局部4.5/3阈值。批准仅当前首次固定参考状态基线，无盲改失败基线、桌面Zoom或全面WCAG结论。\n\n原生AT只限定复用：实际读取原四VoiceOver输出、原执行source `9158f36d936ca80eed263e27c7cd299dd1f1c6e01b65aefef47d3ce9c1e92750`及每次05:47–05:52 UTC真实时间、原独立screenreader-review及P1-03已核准影响分析；项目HTML SHA `86082c9bd44af40fbe14b37bc3693927adb31a8a06094fd0efebf7352c0a7a40`完全不变，正常actor-a无query/fault1/恢复业务、语义radio/status/焦点代码无变化；当前HTTP/browse/keyboard再执行可证明未受影响。原nativeChrome155/macOS27.0.1 Normal/Service failure selected、Load item激活、503动态通知/Reference item恢复证据可用于此未变限定路径；原missing value游标文本保留。不重绑定旧执行、不重新开VO，不声称其他AT/所有状态。此前6条准入“currently incomplete”已由作者精准改为原实际执行已有/当前非作者复用待核准，本人复核新diff、摘要后以domain-review供限定核准。\n\n## canary文档与真实平台\n\n实际双语语义核对 pin/owner/github范围、命令/独立性/漂移复验、合成限制、导航及既有指南一致；原上游PR模板/自动化指南明确登记raw且未变，不当作新目标正式文档缺译文。CANARY旧原政策仍限期迁移，试点不合入原则保留。项目文档check与current snapshot gate实际通过，canary-review.json记录完整5checks/9impact/全部changed与doc文件范围、来源和非作者身份，canary-gate.json只是一致性通过，维护者可信发布另验。\n\n本人只读gh回读PR7：当前head e2b9a...，base a37d46a...，merge c2f1063...，open/draft、mergeable_state blocked；当前validate/lifecycle-policy真实success，App15368，原URL在independent-current/checks.json。strict三context包含harness-independent-review、无bypass、Actions read/不可批准保持；原真实before也保留。verification.txt仅原本地命令日志，review明确真实CI来自外部API回读，不称文件包含之后CI。此可见小repo模型不等于全面App/token审计。第三context/可信发布及违规PR正反例由维护者补齐后另独立核对。\n\n**此范围结论：通过当前三项目真实采用行为、限定领域/基线/AT复用、当前canary内容/翻译/两真实CI及文档一致性。** 整包P1-04仍待根最终变更/全机械证据/平台负例与受信来源完成独立增量验证；此评审不给合入、正式发布、生产、设置写或全平台结论。\n",
+      "sha256": "0675d10e942f49bccdb56a2eae892c883ff3e8dc2b10f9965821317c50316e42"
+    }
+  ],
+  "requirements": [
+    "REQ-00d11cc057c0fb32",
+    "REQ-43dfb7e33f060ad9",
+    "REQ-2c53cd97615fac1d",
+    "REQ-c77da949fccdf06d",
+    "REQ-27a2372b653850a2",
+    "REQ-9f4b728a615e8b0d",
+    "REQ-82f2677516fe448c",
+    "REQ-94a9a9aaebdb2a10",
+    "REQ-77513f230b7dc9b5",
+    "REQ-10d57b167122eda0",
+    "REQ-50beb0887cfca1a8",
+    "REQ-6a35306ff30ac9a5",
+    "REQ-2c8f1d979e124046",
+    "REQ-4b478bacc04dc9dc",
+    "REQ-687e5c0bce278999",
+    "REQ-ed55e9ac01b43dd2",
+    "REQ-579f3308a17f2121",
+    "REQ-8338afcc42b18468",
+    "REQ-b09409a1c885c4d2",
+    "REQ-32a193560be04dc4",
+    "REQ-eb5ba36255020e92",
+    "REQ-5955c75ba825e801",
+    "REQ-b3ef720d2b54a423",
+    "REQ-0e9f60f9749c41de",
+    "REQ-2e2563f9725498fd",
+    "REQ-9a56e05064345899",
+    "REQ-45a599a5f36bd775",
+    "REQ-095482d9aed10a71",
+    "REQ-852948011f903a42",
+    "REQ-47d564afc24e5008",
+    "REQ-967cc21650379931",
+    "REQ-a04230e56287b9dc",
+    "REQ-e0a4693c01e0fb83",
+    "REQ-394e01e19c78ff66",
+    "REQ-198c9548f6e8b1ff",
+    "REQ-c5d1bae42c4a0fa6",
+    "REQ-b0eff893d9f9d0a3",
+    "REQ-4fc4946ea01539d4",
+    "REQ-adb611ed084d81ce",
+    "REQ-d0ac79e25566cd44",
+    "REQ-df1d96f2280dfd33",
+    "REQ-0d35f4d20167f7f6",
+    "REQ-0933827909669ed0",
+    "REQ-d63bbe9b0e31730a",
+    "REQ-ab080dccb2cd826e",
+    "REQ-c50f4e7bfde92ee7",
+    "REQ-bb598a4454a81c19",
+    "REQ-a972dbd825e9ceae",
+    "REQ-2671bc2136fe8b45",
+    "REQ-56128f36d8ba3399",
+    "REQ-373a920e28c6c5f2",
+    "REQ-60511ed8d2aea427",
+    "REQ-c7821bb50c25dbcc",
+    "REQ-ead4f37df7a674b6",
+    "REQ-c03b2572b42709f5",
+    "REQ-fd48a4b9466f89f0",
+    "REQ-c0a0f1fbe96eaa8c",
+    "REQ-251689ea30fa03e4",
+    "REQ-edd103c6091f7068",
+    "REQ-1037da23dfa50d91",
+    "REQ-ffea4c94e35f9924",
+    "REQ-c1bfa62107c0b62a",
+    "REQ-a0df3634b9456246",
+    "REQ-b75daf1b501724e9",
+    "REQ-1c3269748b0e3cb5",
+    "REQ-31ff71956ef93cb9",
+    "REQ-9f6a42a645720d5f",
+    "REQ-f3ef88e00fa56314",
+    "REQ-6650851dc7d40624",
+    "REQ-355697b7c32a7cef",
+    "REQ-8a938e7cdede8b3f",
+    "REQ-ad3f2eeae05f3f39",
+    "REQ-3801b6a9f6095cd9",
+    "REQ-21f7fdbd03e1f09a",
+    "REQ-d10354990972f7a0",
+    "REQ-a9144fffa0a9a9ff",
+    "REQ-3eb5cb9febd86618",
+    "REQ-6eba9b9d18c9f2fc",
+    "REQ-b00ee2d4d290a1cf",
+    "REQ-2f288a3273940f9c",
+    "REQ-69a1a598ffa64d13",
+    "REQ-30afdd19673dc0ce",
+    "REQ-31cd4d55d5394882",
+    "REQ-2804bfb137752d39",
+    "REQ-a71b342d143f62ea",
+    "REQ-9b0ed05db3934f88",
+    "REQ-a7b9bbf29b2efe2f",
+    "REQ-7ed1106ea3e5cb3e",
+    "REQ-be013fecb374b2c0",
+    "REQ-0177bc2a7947e881",
+    "REQ-b3e8b1e61abc6346",
+    "REQ-d18a3a4da2f5a179",
+    "REQ-f61544ae9054a59c",
+    "REQ-2ca083e73173efa1",
+    "REQ-513ffdbbe7179e9b",
+    "REQ-69fa1d975f3d76a8",
+    "REQ-599af21d4ab236d6",
+    "REQ-a4685023c9c64291",
+    "REQ-d1b6e4a092a3b802",
+    "REQ-9299e015ab45df0d"
+  ]
+}
