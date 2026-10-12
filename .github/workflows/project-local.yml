@@ -1,0 +1,8 @@
+name: Existing project
+on: workflow_dispatch
+permissions: {}
+jobs:
+  existing:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo fixture-existing
